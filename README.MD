@@ -41,9 +41,9 @@ This system is designed to simplify hotel bookings while ensuring security and r
 
 ### Postman Collections
 Access the Postman collection for API testing:
-[Postman Collection Documentation](https://documenter.getpostman.com/view/39168679/2sAYJ98x9m)
+https://documenter.getpostman.com/view/39168679/2sAYJ98x9m
 
 ### Documentation for Backend Details
 Detailed documentation for backend implementation can be found here:
-[Backend Documentation](https://docs.google.com/document/d/1vbbBGNKq4GhZM5hxhN-bqv9uMdS8RRFmMcKSUCka6Q4/edit?tab=t.0)
+https://docs.google.com/document/d/1vbbBGNKq4GhZM5hxhN-bqv9uMdS8RRFmMcKSUCka6Q4/edit?tab=t.0
 
