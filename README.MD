@@ -14,26 +14,38 @@ ________________________________________________________________________________
 API Endpoints
 
 1. Hotels
+
 GET /api/hotels: Retrieve all hotels.
+
 POST /api/hotels/search: Search hotels based on criteria (e.g., location, availability).
+
 GET /api/hotels/:hotelId: Retrieve details of a specific hotel.
 
 2. Bookings
+
 GET /api/bookings/:userId: Retrieve all bookings for a user.
+
 POST /api/bookings: Create a new booking for a selected hotel.
+
 PATCH /api/bookings/:bookingId: Update booking details (e.g., check-in, check-out dates).
+
 DELETE /api/bookings/:bookingId: Cancel a booking.
 
 3. Payments
+
 POST /api/payments: Process payments using Stripe or PayPal for hotel bookings.
 
 4. Users
+
 POST /api/auth/register: Register a new user.
+
 POST /api/auth/login: Log in a user.
+
 GET /api/users/profile: Retrieve user profile details.
 _________________________________________________________________________________________________________________________
 
 Example Use Case
+
 User searches for hotels in a specified location and views availability.
 User selects a hotel, chooses a room type, and confirms a booking.
 User proceeds to secure payment and receives real-time booking confirmation.
